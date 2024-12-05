@@ -130,6 +130,7 @@ class LinkedList{
         void popAt(int index){
 
             if (index == 0){
+                delete firstNode;
                 firstNode = firstNode->nextNode;
                 length--;
                 return;
