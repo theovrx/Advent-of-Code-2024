@@ -42,6 +42,7 @@ bool isSequenceValid(LinkedList &sequence, std::vector<std::string> rules){
                 indBefore != -1 && indAfter != -1 
                 && indBefore > indAfter
             ){
+                // Can be optimized by implementing a "replace" method. We would iterate the list only 2 times instead of 4.
                 sequence.display();
                 sequence.popAt(indBefore);
                 sequence.addNodeAtIndex(after, indBefore);
