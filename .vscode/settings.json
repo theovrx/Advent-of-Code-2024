@@ -52,6 +52,7 @@
         "map": "cpp",
         "regex": "cpp",
         "sstream": "cpp",
-        "unordered_set": "cpp"
+        "unordered_set": "cpp",
+        "list": "cpp"
     }
 }
